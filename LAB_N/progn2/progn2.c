@@ -17,6 +17,5 @@ int main() {
     } else {  
         printf("Точка знаходиться на лінії.\n");  
     }
-
     return 0;  
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>  // Підключаємо бібліотеку для введення/виведення
+#include <stdio.h>  
 
 int main() {
     int index;  
@@ -15,7 +15,7 @@ int main() {
         case 79000:
             printf("Львів\n");
             break;
-        case 65000:
+        case 65000:1
             printf("Одеса\n");
             break;
         case 50000:

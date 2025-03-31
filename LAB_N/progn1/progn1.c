@@ -19,7 +19,9 @@ int main() {
         a = sqrt(4 - b * c);
     } else if (b == 3) {
         a = (double)(b - 2) / (c * c);
-    
+    } else {
+        printf("Некоректне значення b!\n");
+         return 1;
     }
     printf("Результат (повна форма if ... else if): a = %.2f\n", a);
 
